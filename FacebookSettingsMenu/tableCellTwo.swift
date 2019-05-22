@@ -10,6 +10,8 @@ import UIKit
 
 class tableCellTwo: UITableViewCell {
 
+    @IBOutlet weak var labelCatagory: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
